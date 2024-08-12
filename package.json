@@ -1,0 +1,22 @@
+{
+  "name": "pancy-telegram",
+  "version": "0.0.1",
+  "description": "Bot de telegram",
+  "main": "src/index.ts",
+  "repository": "https://github.com/PancyStudios/PancyTelegram.git",
+  "author": "Turbiis <162517611+Turbiis@users.noreply.github.com>",
+  "license": "Apache-2",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  },
+  "scripts": {
+    "start": "ts-node ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
